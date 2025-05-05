@@ -1,0 +1,21 @@
+- w/o vectorization (python)
+    - # imgs = 1 -> (1 iter) t = 263.053
+    - # imgs = 2 -> (1 iter) t = 680.404
+    - # imgs = 3 -> (1 iter) t = 1055.277
+    - # imgs = 4 -> (1 iter) t = 1663.366
+    - # imgs = 5 -> (1 iter) t = 1854.457
+
+- w/ vectorization (python)
+    - # imgs = 1 -> (1 iter) t = 1.229
+    - # imgs = 2 -> (1 iter) t = 2.264
+    - # imgs = 3 -> (1 iter) t = 3.339
+    - # imgs = 4 -> (1 iter) t = 4.498
+    - # imgs = 5 -> (1 iter) t = 5.453
+
+- w/o vectorization (c++)
+    - # imgs = 1 -> (1 iter) t = 0.149
+    - # imgs = 2 -> (1 iter) t = 0.286
+    - # imgs = 3 -> (1 iter) t = 0.431
+    - # imgs = 4 -> (1 iter) t = 0.574
+    - # imgs = 5 -> (1 iter) t = 0.697
+
