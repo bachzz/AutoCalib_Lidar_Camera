@@ -1,5 +1,7 @@
 # Automatic Extrinsic Calibration between Camera & 3D Lidar using Mutual Information
 
+**Blog**: https://bachzz.github.io/posts/MI_calib/ 
+
 **Note**: This is python implementation (+ vectorization) of the two MI-based approaches:
 
 - Intensity-to-Intensity (I2I): [Automatic Targetless Extrinsic Calibration of a 3D Lidar and Camera by Maximizing Mutual Information](https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21542)
